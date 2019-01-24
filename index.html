@@ -4,76 +4,82 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link href=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAACIlBMVEUAAADXLhLHHAnONQrfRBLBezPjPhDMKAtwaD6Iu0h5pUNAciBKeyviPQ/TOQ3TdCyDnFxzqSpgly9FgykhdCEyeDDePxDFmFObvmozXy7oQA7lQw3tcg3sdA/Cs4GcxWIpPiXrQAy3SCCLZleOjI6zjIXYdkjleDPM1KNLjTIdIB03aJoLdrgVidRBn+NWsOqEx/Lh5u62yYdJfTkmIigZfsW+zL3/pRfou1G4yoOfv3mEpl93iU1fXEZFisESecFCm9vv1Zr/tzr/rSn8rivzry36qiN5aVBJjsIDa7putun9w1nmpCdRVFlAicOHscv/sSe3iz0lcKcHO2QYOVI2VGsrbpkIgc6Vo5L/tRh7ZUEZNFBRbIyukk/0lhk4NC6VdEOxgS7LiRrGgBmeaSBSPiQXFhnJJQjNMArPMQncSg/kWhHnYRDfVRPiVhDqbRPvhRTwfhKKwCzdTQ/sdhLwhxPyjxPmbhqQv0CGui9tqyRIkCUqhSbvXwnndBfjchuIuUuUwUKEuitcnSQ/jyx7sk+uzmeVwEuJuzJrqSR0r06FuVKDt0V0sC9bpSMAhtMhmNxaq+N3vOpIot4AfsoTk9lJo+BlseX/rysAd8MAjNYpmdw/mtr/tTL/1mz/0lL/xyf/xA8AZbcAcsMAf80AkNwYkNv/wDP/0Ef/xiz/wRn/rAv/ySj/wR3/uBT/qw7/oQ3+tQv/ug3/sg3/pwv/mwSYjziiAAAAZ3RSTlMAZt74rRYE12xrEAg6LfvLi9+zs9nob5K4sQHA+/5x7W0JmIpxdrPegvcvL7Pp9O65M3TGB5Wc0JR9kpmXQQXS+YTw2cvC3z8t+8+t6Bt2kOCrjaVoX5Pje/dwBxZd9kNEoMfFoVQGS1Na1wAAAOhJREFUGNNjYGBgYGRKz2BmYWWAATb2zKzsnFwOTi4GBm4eoAAvX15+QSG/QJGgkLCIKFBArLiktKxcXKKisqq6RpKBQUq6Vka2rl5OvqGxqblFgYFBUUlZRVVNXaO1rb2jU1OLgUFbR1dP38DQqKu7p7fP2ISBwbR/wsRJk83MLSytrG1sGRjs7KdMnTbdwXGGk7OLq5s7A4OH58xZs+d4ec+dN3/BQh9fBga/RYuXLF3mH7B8xcpVqwOBrggKDgkNC4+IXLN23foNUUCBaJDrY2I3btq8ZWtcPNw/DAmJSckpqWkMRAAAQKxAWCHchmwAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
-		<title>Magic Link 20190124</title>
+		<title>Magic Link 20190125</title>
 		<style type="text/css">
-		@font-face {
-			font-family: "Browallia News";
-			src: local('Browallia News Bold Italic'), url(browaz.woff) format("woff");
-		}
-		@font-face {
-			font-family: "Trebuchet MS";
-			src: local('Trebuchet MS Bold'), url(trebucbd.woff) format("woff");
-		}
-		body {
-			background-color: #000000;
-		}
-		td.category {
-			text-align: center;
-			font-family: Browallia News;
-		}
-		@media (min-width: 0px) {
+			@font-face {
+				font-family: 'Noto Sans';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Noto Sans Thai UI'), local('NotoSansThaiUI'),
+					url(NotoSansThaiUI-Regular.woff2) format('woff2'); 
+				unicode-range: U+0E00-0E7F;
+			}
+			@font-face {
+				font-family: 'Noto Sans';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Noto Sans'), local('NotoSans'),
+					url(NotoSans-Regular.woff2) format('woff2');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+			}
+			body {
+				background-color: #000000;
+				font-family: 'Noto Sans', 'sans';
+			}
 			td.category {
-				font-size: 10pt;
-				width: 12%;
-				min-width: 50px;
-				max-width: 70px;
+				text-align: center;
+			}
+			@media (min-width: 0px) {
+				td.category {
+					font-size: 10pt;
+					width: 12%;
+					min-width: 50px;
+					max-width: 70px;
+				}
+				td.link {
+					font-size: 9pt;
+					line-height: 24px;
+				}
+				img.logo {
+					width: 100%;
+					height: 100%;
+					max-width: 350px;
+				}
+			}
+			@media (min-width: 650px) {
+				td.category {
+					font-size: 14pt;
+					width: 150px;
+					max-width: 150px;
+				}
+				td.link {
+					font-size: 12.4pt;
+					line-height: 35px;
+				}
+				img.logo {
+					max-width: 503px;
+				}
 			}
 			td.link {
-				font-size: 9pt;
-				line-height: 24px;
+				text-align: left;
+				word-wrap: break-word;
+				padding-left: 5px;
 			}
-			img.logo {
-				width: 100%;
-				height: 100%;
-				max-width: 350px;
+			.yellow * {
+				color: #ffff00;
 			}
-		}
-		@media (min-width: 650px) {
-			td.category {
-				font-size: 18.2pt;
-				width: 150px;
-				max-width: 150px;
+			.blue * {
+				color: #00ffff;
 			}
-			td.link {
-				font-size: 12.4pt;
-				line-height: 35px;
+			.pink * {
+				color: #ffccff;
+			}	
+			.green * {
+				color: #00ff00;
 			}
-			img.logo {
-				max-width: 503px;
+			.white * {
+				color: #ffffff;
 			}
-		}
-		td.link {
-			text-align: left;
-			word-wrap: break-word;
-			padding-left: 5px;
-			
-			font-family: Trebuchet MS;
-		}
-		.yellow * {
-			color: #ffff00;
-		}
-		.blue * {
-			color: #00ffff;
-		}
-		.pink * {
-			color: #ffccff;
-		}	
-		.green * {
-			color: #00ff00;
-		}
-		.white * {
-			color: #ffffff;
-		}
 		</style>
 	</head>
 	<body>
@@ -100,25 +106,24 @@
 						<td class="category yellow">
 							<div>เมล + เน็ต</div></td>
 						<td class="link pink"><span>
-							<a href="http://www.gmail.com/">GMail</a> &nbsp;
-							<a href="http://www.outlook.com">Outlook</a> &nbsp;  -  &nbsp;
-							<a href="http://www.hits.in.th/idcard.php">ThaiID</a> &nbsp; 
+							<a href="https://www.gmail.com/">GMail</a> &nbsp;
+							<a href="https://outlook.live.com/mail/inbox">Outlook</a> &nbsp;  -  &nbsp;
 							<a href="http://handing2.glo.or.th/main.php?filename=glo_lotto">Lottery</a> &nbsp; 
-							<a href="http://whoscall.com/th-TH/">WhosCall</a> &nbsp; 
-							<a href="http://www.timeanddate.com/worldclock/fullscreen.html?n=28">Clock</a> &nbsp;  -  &nbsp;
-							<a href="http://beta.speedtest.net/">Speedtest.NET</a>
+							<a href="https://whoscall.com/th-TH/">WhosCall</a> &nbsp; 
+							<a href="https://www.timeanddate.com/worldclock/fullscreen.html?n=28">TimeAndDate</a> &nbsp;  -  &nbsp;
+							<a href="http://www.speedtest.net/">Speedtest.NET</a>
 							</span></td>
 					</tr>
 					<tr>
 						<td class="category yellow">
 							<div>บันเทิง </div></td>
 						<td class="link green"><span>
-							<a href="http://www.youtube.com">Youtube</a> &nbsp; 
+							<a href="https://www.youtube.com">Youtube</a> &nbsp; 
 							<a href="http://cloudiptv.3bb.co.th/tvonline/">3BB IPTV</a> &nbsp;
 							<a href="http://truetv.trueid.net/">TrueID TV</a> &nbsp; 
 							<a href="https://tv.line.me/">LINE TV</a> &nbsp; 
 							<a href="https://piay.iflix.com/">iflix</a> &nbsp;
-							<a href="http://music.sanook.com/">JOOX</a> &nbsp;
+							<a href="https://www.joox.com/">JOOX</a> &nbsp;
 							<a href="https://open.spotify.com/collection/playlists">Spotify</a>
 							</span></td>
 					</tr>
@@ -126,7 +131,7 @@
 						<td class="category yellow">
 							<div>ซื้อของ</div></td>
 						<td class="link blue"><span>
-							<a href="http://www.ebay.com">ebay</a> &nbsp;
+							<a href="https://www.ebay.com">ebay</a> &nbsp;
 							<a href="https://www.aliexpress.com/">AliExpress</a> &nbsp;
 							<a href="http://www.jib.co.th/web/index.php/priceList/getPriceList/60">J.I.B.</a> &nbsp;
 							<a href="https://online.advice.co.th/">Advice</a> &nbsp;
@@ -141,10 +146,9 @@
 							<a href="http://www.facebook.com">Facebook</a> &nbsp; 
 							<a href="http://www.kaidee.com/">Kaidee</a> &nbsp;
 							<a href="http://www.lnwmarket.com/">lnwMarket</a> &nbsp; - &nbsp;
-							<a href="http://customer.smoothexpress.com/home">Smooth</a> &nbsp;
 							<a href="https://tptrack.info/ecom/dtrack.php">ThaiParcels</a> &nbsp;
-							<a href="http://th.ke.rnd.kerrylogistics.com/shipmenttracking/#">KerryXP</a> &nbsp;
-							<a href="http://track.thailandpost.co.th/">ThailandPost</a>
+							<a href="https://th.kerryexpress.com/th/track/">KerryXP</a> &nbsp;
+							<a href="http://track.thailandpost.co.th/">ThaiPost</a>
 							</span></td>
 					</tr>
 					<tr>
@@ -196,12 +200,11 @@
 						<td class="category yellow">
 							<div>เน็ตเวิร์ค</div></td>
 						<td class="link white"><span>
-							<a href="https://cpanel.hostinger.in.th/">Hostinger</a> &nbsp;
+							<a href="https://github.com">GitHub</a> &nbsp;
 							<a href="https://freedns.afraid.org/">FreeDNS</a> &nbsp;
 							<a href="http://tools.icez.net/dnstrace.php">DNSTrace</a> &nbsp;
 							<a href="http://www.who.is/">WHOIS</a> &nbsp;
 							<a href="http://www.ipaddress.com/">My IP</a> &nbsp;
-							<a href="http://192.168.1.1">Huawei Router</a> &nbsp;
 							<a href="https://fleet.byteark.com/diag">Internet Diagnostic</a>
 							</span></td>
 					</tr>
