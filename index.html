@@ -56,8 +56,8 @@
       }
       td {
         border: 1px solid #fef7cc;
-        padding: 4px 12px;
-        line-height: 1.9;
+        padding: 2px 6px 4px 10px;
+        
       }
       td.category {
         font-family: "Noto Sans Thai", "sans";
@@ -67,13 +67,15 @@
       td.category > div {
         text-align: center;
         font-size: 1.1rem;
+        line-height: 1.8;
         word-break: break-word;
       }
       td.link > a,
       td.link > span {
-        font-size: 1.1rem;
+        font-size: 4.2vw;
+        line-height: 1.8;
         word-break: break-word;
-        margin-right: 0.6em;
+        margin-right: 0.55em;
       }
       
       td.yellow,
@@ -96,6 +98,13 @@
       td.white * {
         color: #ffffff;
       }
+      
+      @media (min-width: 400px) {
+        td.link > a,
+        td.link > span {
+          font-size: 1.1rem;
+        }
+      }
 
       @media (min-width: 500px) {
         table {
@@ -104,6 +113,14 @@
         td.category {
           display: table-cell;
           width: 110px;
+        }
+        td.category > div {
+          line-height: 1.9;
+        }
+        td.link > a,
+        td.link > span {
+          line-height: 1.9;
+          margin-right: 0.6em;
         }
       }
       
