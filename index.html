@@ -47,14 +47,14 @@
         max-width: 940px;
       }
       img.logo {
-        width: calc(100% - 80px);
-        height: 100%;
+        width: calc(100% - 100px);
         max-width: 350px;
+        height: 100%;
         margin: 20px 50px -20px;
       }
       table {
         width: calc(100% - 20px);
-        margin: 8px 10px;
+        margin: 8px 10px 100px;
         background-color: rgba(0, 0, 0, 0.65);
       }
       td {
@@ -79,7 +79,7 @@
       td.link > span {
         font-size: 1.1rem;
         word-break: break-word;
-        margin-right: 0.3em;
+        margin-right: 0.5em;
       }
       td.yellow,
       td.yellow * {
@@ -109,6 +109,10 @@
         td {
           padding: 4px 6px;
           line-height: 1.8;
+        }
+        td.category {
+          display: block;
+          transform: rotate(-90deg);
         }
         td.category > div {
           font-size: 1.15rem;
